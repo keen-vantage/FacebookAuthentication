@@ -1,0 +1,19 @@
+{
+  "description": "",
+  "type": "flow-package",
+  "name": "keenvantage/facebookauthentication",
+  "require": {
+    "typo3/flow": "*",
+    "facebook/php-sdk-v4": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "KeenVantage\\FacebookAuthentication\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "KeenVantage.FacebookAuthentication"
+    }
+  }
+}

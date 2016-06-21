@@ -1,0 +1,10 @@
+-
+  name: 'Facebook login callback'
+  uriPattern: 'facebook/login/callback'
+  defaults:
+    '@package': 'KeenVantage.FacebookAuthentication'
+    '@controller': 'Token'
+    '@action': 'authenticate'
+    '@format': 'html'
+  httpMethods:
+    - 'GET'

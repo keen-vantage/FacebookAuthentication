@@ -1,0 +1,7 @@
+KeenVantage:
+  FacebookAuthentication:
+    app:
+      id: ''
+      secrect: ''
+      namespace: ''
+      graphVersion: 'v2.4'
